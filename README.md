@@ -1,16 +1,35 @@
-# nome_do_projeto
+Aplicativo Flutter
 
-A new Flutter project.
+Integrantes do Grupo: Ismael Sousa Silva, João Wesley Duarte Pereira e Jamili Agostinho Gonçalves Pereira
 
-## Getting Started
+Instruções de Execução
+Certifique-se de ter o Flutter instalado e configurado em seu ambiente de desenvolvimento.
+Clone o repositório:
+git clone https://github.com/IsmaelSousa31/trabalhoap
+Acesse o diretório do projeto:
+cd seu-repositorio
+Instale as dependências do projeto:
+flutter pub get
+Execute o aplicativo:
+flutter run
+O aplicativo será iniciado no seu dispositivo ou emulador.
 
-This project is a starting point for a Flutter application.
+Funcionalidades
+O aplicativo inclui as seguintes telas e funcionalidades:
 
-A few resources to get you started if this is your first Flutter project:
+Tela Inicial: Apresenta um menu com as seguintes opções:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Escolha de Combustível
+Frase do Dia
+Tela de Jogos
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Escolha de Combustível: Permite ao usuário inserir os valores do álcool e da gasolina, e exibe a melhor opção de combustível.
+
+Frase do Dia: Gera e exibe uma frase motivacional aleatória.
+
+Tela de Jogos: Oferece três jogos diferentes:
+
+Jokenpô (Pedra, Papel, Tesoura)
+Cara ou Coroa
+Jogo de Memória
+Cada jogo possui sua própria tela de interação e lógica de funcionamento.
