@@ -1,0 +1,33 @@
+name: nome_do_projeto
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Adicionando todos os arquivos de imagem na pasta assets
+  assets:
+    - assets/cara.png
+    - assets/frases.png
+    - assets/pedra.png
+    - assets/papel.png
+    - assets/tesoura.png
+    - assets/gasolina.png
+    - assets/GAME.png
+    - assets/memoria.png
+
